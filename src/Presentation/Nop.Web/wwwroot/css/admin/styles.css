@@ -551,6 +551,7 @@ i.false-icon {
   padding: 1rem;
   font-size: 18px;
   line-height: 26px;
+  display : none;
 }
 
 .admin-area-tour .shepherd-content .shepherd-footer {
@@ -1523,12 +1524,14 @@ div.dataTables_wrapper div.dataTables_processing .fa {
 
 .documentation-reference {
   margin-bottom: 10px;
+  display : none;
 }
 
-.documentation-reference i {
-  font-size: 0.9em;
-  color: #4d4d4d;
-}
+  .documentation-reference i {
+    font-size: 0.9em;
+    color: #4d4d4d;
+    display: none;
+  }
 
 /* FORM ELEMENTS */
 .form-horizontal .label-wrapper {
@@ -2611,4 +2614,8 @@ div.dataTables_wrapper div.dataTables_paginate {
   .float-lg-right {
     float: none;
   }
+}
+
+nop-doc-reference{
+    display : none;
 }

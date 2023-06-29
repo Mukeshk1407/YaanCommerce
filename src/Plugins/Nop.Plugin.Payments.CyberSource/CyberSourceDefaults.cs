@@ -15,7 +15,7 @@ namespace Nop.Plugin.Payments.CyberSource
         /// <summary>
         /// Gets the user agent used to request third-party services
         /// </summary>
-        public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+        public static string UserAgent => $"yaancommerce-{NopVersion.CURRENT_VERSION}";
 
         /// <summary>
         /// Gets the solution ID

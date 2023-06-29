@@ -6,7 +6,7 @@ using Nop.Web.Framework.Components;
 namespace Nop.Web.Areas.Admin.Components
 {
     /// <summary>
-    /// Represents a view component that displays the nopCommerce news
+    /// Represents a view component that displays the yaancommerce news
     /// </summary>
     public partial class NopCommerceNewsViewComponent : NopViewComponent
     {

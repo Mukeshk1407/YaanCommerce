@@ -4,7 +4,7 @@
   "SystemName": "Payments.PayPalCommerce",
   "Version": "1.16",
   "SupportedVersions": [ "4.60" ],
-  "Author": "nopCommerce team",
+  "Author": "yaancommerce team",
   "DisplayOrder": -1,
   "FileName": "Nop.Plugin.Payments.PayPalCommerce.dll",
   "Description": "PayPal Commerce Platform is a full-stack payment processing solution that helps you accept and make payments globally"

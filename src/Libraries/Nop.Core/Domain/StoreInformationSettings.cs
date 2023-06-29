@@ -8,8 +8,8 @@ namespace Nop.Core.Domain
     public partial class StoreInformationSettings : ISettings
     {
         /// <summary>
-        /// Gets or sets a value indicating whether "powered by nopCommerce" text should be displayed.
-        /// Please find more info at https://www.nopcommerce.com/nopcommerce-copyright-removal-key
+        /// Gets or sets a value indicating whether "powered by yaancommerce" text should be displayed.
+        /// Please find more info at https://www.yaancommerce.com/yaancommerce-copyright-removal-key
         /// </summary>
         public bool HidePoweredByNopCommerce { get; set; }
 

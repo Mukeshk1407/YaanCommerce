@@ -13,9 +13,9 @@ namespace Nop.Plugin.Widgets.FacebookPixel
         public static string SystemName => "Widgets.FacebookPixel";
 
         /// <summary>
-        /// Gets the nopCommerce agent ID
+        /// Gets the yaancommerce agent ID
         /// </summary>
-        public static string AgentId => "plnopcommerce";
+        public static string AgentId => "plyaancommerce";
 
         /// <summary>
         /// Gets the configuration route name

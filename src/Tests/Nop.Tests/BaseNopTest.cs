@@ -197,7 +197,7 @@ namespace Nop.Tests
             webHostEnvironment.Setup(p => p.WebRootPath).Returns(Path.Combine(rootPath, "wwwroot"));
             webHostEnvironment.Setup(p => p.ContentRootPath).Returns(rootPath);
             webHostEnvironment.Setup(p => p.EnvironmentName).Returns("test");
-            webHostEnvironment.Setup(p => p.ApplicationName).Returns("nopCommerce");
+            webHostEnvironment.Setup(p => p.ApplicationName).Returns("yaancommerce");
             services.AddSingleton(webHostEnvironment.Object);
 
             services.AddWebEncoders();
@@ -598,7 +598,7 @@ namespace Nop.Tests
                         dataConfig.ConnectionString = _resourceManager.GetString("PostgreSql server connection string");
                         break;
                     case DataProviderType.Unknown:
-                        dataConfig.ConnectionString = "Data Source=nopCommerceTest.sqlite;Mode=Memory;Cache=Shared";
+                        dataConfig.ConnectionString = "Data Source=yaancommerceTest.sqlite;Mode=Memory;Cache=Shared";
                         break;
                 }
             }

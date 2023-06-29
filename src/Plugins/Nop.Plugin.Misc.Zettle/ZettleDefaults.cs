@@ -16,17 +16,17 @@ namespace Nop.Plugin.Misc.Zettle
         /// <summary>
         /// Gets the user agent used to request third-party services
         /// </summary>
-        public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+        public static string UserAgent => $"yaancommerce-{NopVersion.CURRENT_VERSION}";
 
         /// <summary>
         /// Gets the application name
         /// </summary>
-        public static string ApplicationName => "nopCommerce-integration";
+        public static string ApplicationName => "yaancommerce-integration";
 
         /// <summary>
         /// Gets the partner identifier
         /// </summary>
-        public static string PartnerIdentifier => "nopCommerce";
+        public static string PartnerIdentifier => "yaancommerce";
 
         /// <summary>
         /// Gets the partner affiliation header used for each request to APIs

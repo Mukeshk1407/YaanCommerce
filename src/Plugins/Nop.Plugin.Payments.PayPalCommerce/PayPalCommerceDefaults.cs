@@ -16,12 +16,12 @@ namespace Nop.Plugin.Payments.PayPalCommerce
         /// <summary>
         /// Gets the user agent used to request third-party services
         /// </summary>
-        public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+        public static string UserAgent => $"yaancommerce-{NopVersion.CURRENT_VERSION}";
 
         /// <summary>
-        /// Gets the nopCommerce partner code
+        /// Gets the yaancommerce partner code
         /// </summary>
-        public static string PartnerCode => "NopCommerce_PPCP";
+        public static string PartnerCode => "yaancommerce_PPCP";
 
         /// <summary>
         /// Gets the configuration route name
@@ -94,7 +94,7 @@ namespace Nop.Plugin.Payments.PayPalCommerce
             /// <summary>
             /// Gets the base URL of onboarding services
             /// </summary>
-            public static string ServiceUrl => "https://www.nopcommerce.com/";
+            public static string ServiceUrl => "https://www.yaancommerce.com/";
 
             /// <summary>
             /// Gets the onboarding js script URL

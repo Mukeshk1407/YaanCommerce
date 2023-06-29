@@ -437,7 +437,7 @@ namespace Nop.Web.Framework.Infrastructure.Extensions
             //client to request current store
             services.AddHttpClient<StoreHttpClient>();
 
-            //client to request nopCommerce official site
+            //client to request yaancommerce official site
             services.AddHttpClient<NopHttpClient>().WithProxy();
 
             //client to request reCAPTCHA service

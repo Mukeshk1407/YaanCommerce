@@ -79,11 +79,11 @@ namespace Nop.Web.Areas.Admin.Factories
         }
 
         /// <summary>
-        /// Prepare nopCommerce news model
+        /// Prepare yaancommerce news model
         /// </summary>
         /// <returns>
         /// A task that represents the asynchronous operation
-        /// The task result contains the nopCommerce news model
+        /// The task result contains the yaancommerce news model
         /// </returns>
         public virtual async Task<NopCommerceNewsModel> PrepareNopCommerceNewsModelAsync()
         {
@@ -138,7 +138,7 @@ namespace Nop.Web.Areas.Admin.Factories
             }
             catch (Exception ex)
             {
-                await _logger.ErrorAsync("No access to the news. Website www.nopcommerce.com is not available.", ex);
+                await _logger.ErrorAsync("No access to the news. Website www.yaancommerce.com is not available.", ex);
             }
 
             return model;

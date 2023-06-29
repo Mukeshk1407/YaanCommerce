@@ -1,7 +1,7 @@
 ﻿namespace Nop.Services.Plugins.Marketplace
 {
     /// <summary>
-    /// Support versions from nopCommerce.com marketplace
+    /// Support versions from yaancommerce.com marketplace
     /// </summary>
     public partial class OfficialFeedVersion
     {

@@ -15,7 +15,7 @@ using Nop.Services.Messages;
 namespace Nop.Services.Common
 {
     /// <summary>
-    /// Represents the HTTP client to request nopCommerce official site
+    /// Represents the HTTP client to request yaancommerce official site
     /// </summary>
     public partial class NopHttpClient
     {
@@ -44,9 +44,9 @@ namespace Nop.Services.Common
             IWorkContext workContext)
         {
             //configure client
-            client.BaseAddress = new Uri("https://www.nopcommerce.com/");
+            client.BaseAddress = new Uri("https://www.yaancommerce.com/");
             client.Timeout = TimeSpan.FromSeconds(5);
-            client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, $"nopCommerce-{NopVersion.CURRENT_VERSION}");
+            client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, $"yaancommerce-{NopVersion.CURRENT_VERSION}");
 
             _adminAreaSettings = adminAreaSettings;
             _emailAccountSettings = emailAccountSettings;

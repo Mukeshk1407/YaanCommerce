@@ -57,7 +57,7 @@ namespace Nop.Data.Migrations
         /// Initializes a new instance of the NopMigrationAttribute class
         /// </summary>
         /// <param name="dateTime">The migration date time string to convert on version</param>
-        /// <param name="nopVersion">nopCommerce full version</param>
+        /// <param name="nopVersion">yaancommerce full version</param>
         /// <param name="migrationType">The migration type</param>
         /// <param name="targetMigrationProcess">The target migration process</param>
         public NopMigrationAttribute(string dateTime, string nopVersion, UpdateMigrationType migrationType, MigrationProcessType targetMigrationProcess = MigrationProcessType.NoMatter) :

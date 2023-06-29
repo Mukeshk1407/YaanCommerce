@@ -67,12 +67,12 @@ namespace Nop.Services.Html
             if (replaceUrl)
             {
                 var newWindow = _commonSettings.BbcodeEditorOpenLinksInNewWindow;
-                // format the URL tags: [url=https://www.nopCommerce.com]my site[/url]
-                // becomes: <a href="https://www.nopCommerce.com">my site</a>
+                // format the URL tags: [url=https://www.yaancommerce.com]my site[/url]
+                // becomes: <a href="https://www.yaancommerce.com">my site</a>
                 text = _regexUrl1.Replace(text, $"<a href=\"$1\" rel=\"nofollow\"{(newWindow ? " target=_blank" : "")}>$2</a>");
 
-                // format the URL tags: [url]https://www.nopCommerce.com[/url]
-                // becomes: <a href="https://www.nopCommerce.com">https://www.nopCommerce.com</a>
+                // format the URL tags: [url]https://www.yaancommerce.com[/url]
+                // becomes: <a href="https://www.yaancommerce.com">https://www.yaancommerce.com</a>
                 text = _regexUrl2.Replace(text, $"<a href=\"$1\" rel=\"nofollow\"{(newWindow ? " target=_blank" : "")}>$1</a>");
             }
 
@@ -84,8 +84,8 @@ namespace Nop.Services.Html
                 text = CodeFormatHelper.FormatTextSimple(text);
 
             if (replaceImg)
-                // format the img tags: [img]https://www.nopCommerce.com/Content/Images/Image.jpg[/img]
-                // becomes: <img src="https://www.nopCommerce.com/Content/Images/Image.jpg">
+                // format the img tags: [img]https://www.yaancommerce.com/Content/Images/Image.jpg[/img]
+                // becomes: <img src="https://www.yaancommerce.com/Content/Images/Image.jpg">
                 text = _regexImg.Replace(text, "<img src=\"$1\" class=\"user-posted-image\" alt=\"\">");
 
             return text;

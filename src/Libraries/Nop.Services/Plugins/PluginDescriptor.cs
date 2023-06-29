@@ -41,7 +41,7 @@ namespace Nop.Services.Plugins
             //get plugin descriptor from the JSON file
             var descriptor = JsonConvert.DeserializeObject<PluginDescriptor>(text);
 
-            //nopCommerce 2.00 didn't have 'SupportedVersions' parameter, so let's set it to "2.00"
+            //yaancommerce 2.00 didn't have 'SupportedVersions' parameter, so let's set it to "2.00"
             if (!descriptor.SupportedVersions.Any())
                 descriptor.SupportedVersions.Add("2.00");
 
@@ -128,7 +128,7 @@ namespace Nop.Services.Plugins
         public virtual string FriendlyName { get; set; }
         
         /// <summary>
-        /// Gets or sets the supported versions of nopCommerce
+        /// Gets or sets the supported versions of yaancommerce
         /// </summary>
         [JsonProperty(PropertyName = "SupportedVersions")]
         public virtual IList<string> SupportedVersions { get; set; }

@@ -1,5 +1,5 @@
 ﻿/*
-** nopCommerce ajax cart implementation
+** yaancommerce ajax cart implementation
 */
 
 

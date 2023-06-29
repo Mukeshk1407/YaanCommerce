@@ -1,5 +1,5 @@
 /*
-** nopCommerce custom accordion
+** yaancommerce custom accordion
 */
 
 var Accordion = {

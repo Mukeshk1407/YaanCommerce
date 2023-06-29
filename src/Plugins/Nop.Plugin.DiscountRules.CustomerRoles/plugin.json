@@ -4,7 +4,7 @@
   "SystemName": "DiscountRequirement.MustBeAssignedToCustomerRole",
   "Version": "1.40",
   "SupportedVersions": [ "4.60" ],
-  "Author": "nopCommerce team",
+  "Author": "yaancommerce team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.DiscountRules.CustomerRoles.dll",
   "Description": "This plugin allows you to configure discounts for certain customer groups (roles)"

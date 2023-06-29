@@ -19,11 +19,11 @@ namespace Nop.Web.Areas.Admin.Factories
         Task<DashboardModel> PrepareDashboardModelAsync(DashboardModel model);
 
         /// <summary>
-        /// Prepare nopCommerce news model
+        /// Prepare yaancommerce news model
         /// </summary>
         /// <returns>
         /// A task that represents the asynchronous operation
-        /// The task result contains the nopCommerce news model
+        /// The task result contains the yaancommerce news model
         /// </returns>
         Task<NopCommerceNewsModel> PrepareNopCommerceNewsModelAsync();
     }

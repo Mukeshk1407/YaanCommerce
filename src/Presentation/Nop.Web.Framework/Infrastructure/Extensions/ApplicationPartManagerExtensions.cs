@@ -170,7 +170,7 @@ namespace Nop.Web.Framework.Infrastructure.Extensions
             if (string.IsNullOrEmpty(assemblyFile) ||
                 string.IsNullOrEmpty(fileProvider.GetParentDirectory(assemblyFile)))
                 throw new InvalidOperationException(
-                    $"The plugin directory for the {fileProvider.GetFileName(assemblyFile)} file exists in a directory outside of the allowed nopCommerce directory hierarchy");
+                    $"The plugin directory for the {fileProvider.GetFileName(assemblyFile)} file exists in a directory outside of the allowed yaancommerce directory hierarchy");
 
             var assembly =
                 AddApplicationParts(applicationPartManager, assemblyFile, pluginConfig.UseUnsafeLoadAssembly);

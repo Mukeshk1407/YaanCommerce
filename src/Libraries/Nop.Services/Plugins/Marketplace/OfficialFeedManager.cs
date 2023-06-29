@@ -10,7 +10,7 @@ using Nop.Services.Logging;
 namespace Nop.Services.Plugins.Marketplace
 {
     /// <summary>
-    /// Represents the official feed manager (plugins from nopcommerce marketplace)
+    /// Represents the official feed manager (plugins from yaancommerce marketplace)
     /// </summary>
     public partial class OfficialFeedManager
     {
@@ -66,7 +66,7 @@ namespace Nop.Services.Plugins.Marketplace
             }
             catch (Exception ex)
             {
-                await _logger.ErrorAsync("No access to the list of plugins. Website www.nopcommerce.com is not available.", ex);
+                await _logger.ErrorAsync("No access to the list of plugins. Website www.yaancommerce.com is not available.", ex);
             }
 
             //get list of categories from the XML
@@ -95,7 +95,7 @@ namespace Nop.Services.Plugins.Marketplace
             }
             catch (Exception ex)
             {
-                await _logger.ErrorAsync("No access to the list of plugins. Website www.nopcommerce.com is not available.", ex);
+                await _logger.ErrorAsync("No access to the list of plugins. Website www.yaancommerce.com is not available.", ex);
             }
 
             //get list of versions from the XML
@@ -131,7 +131,7 @@ namespace Nop.Services.Plugins.Marketplace
             }
             catch (Exception ex)
             {
-                await _logger.ErrorAsync("No access to the list of plugins. Website www.nopcommerce.com is not available.", ex);
+                await _logger.ErrorAsync("No access to the list of plugins. Website www.yaancommerce.com is not available.", ex);
             }
 
             //get list of extensions from the XML

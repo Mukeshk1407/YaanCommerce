@@ -123,7 +123,7 @@ namespace Nop.Tests.Nop.Services.Tests.Blogs
             blogPosts = await _blogService.GetAllBlogPostsByTagAsync(tag: "e-commerce");
             blogPosts.TotalCount.Should().Be(2);
 
-            blogPosts = await _blogService.GetAllBlogPostsByTagAsync(tag: "nopCommerce");
+            blogPosts = await _blogService.GetAllBlogPostsByTagAsync(tag: "yaancommerce");
             blogPosts.TotalCount.Should().Be(1);
 
             blogPosts = await _blogService.GetAllBlogPostsByTagAsync(tag: "blog");

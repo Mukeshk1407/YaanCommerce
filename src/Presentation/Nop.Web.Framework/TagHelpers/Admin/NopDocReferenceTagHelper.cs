@@ -78,7 +78,7 @@ namespace Nop.Web.Framework.TagHelpers.Admin
                     output.Attributes.SetAttribute("class", "documentation-reference");
                 }
 
-                var hintHtml = $"<span>{StringResource}</span>";
+                var hintHtml = $"<span style=display:none>{StringResource}</span>";
                 output.Content.AppendHtml(hintHtml);
             }
 

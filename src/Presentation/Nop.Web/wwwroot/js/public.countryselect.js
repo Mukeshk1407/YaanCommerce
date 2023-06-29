@@ -1,5 +1,5 @@
 ﻿/*
-** nopCommerce country select js functions
+** yaancommerce country select js functions
 */
 +function ($) {
     'use strict';

@@ -137,7 +137,7 @@ namespace Nop.Plugin.Misc.Sendinblue
             {
                 ["Plugins.Misc.Sendinblue.AccountInfo"] = "Account info",
                 ["Plugins.Misc.Sendinblue.AccountInfo.Hint"] = "Display account information.",
-                ["Plugins.Misc.Sendinblue.ActivateSMTP"] = "On your Sendinblue account, the SMTP has not been enabled yet. To request its activation, simply send an email to our support team at contact@sendinblue.com and mention that you will be using the SMTP with the nopCommerce plugin.",
+                ["Plugins.Misc.Sendinblue.ActivateSMTP"] = "On your Sendinblue account, the SMTP has not been enabled yet. To request its activation, simply send an email to our support team at contact@sendinblue.com and mention that you will be using the SMTP with the yaancommerce plugin.",
                 ["Plugins.Misc.Sendinblue.AddNewSMSNotification"] = "Add new SMS notification",
                 ["Plugins.Misc.Sendinblue.BillingAddressPhone"] = "Billing address phone number",
                 ["Plugins.Misc.Sendinblue.CustomerPhone"] = "Customer phone number",
@@ -153,7 +153,7 @@ namespace Nop.Plugin.Misc.Sendinblue
                 ["Plugins.Misc.Sendinblue.Fields.CampaignText"] = "Text",
                 ["Plugins.Misc.Sendinblue.Fields.CampaignText.Hint"] = "Specify SMS campaign content. The number of characters is limited to 160 for one message.",
                 ["Plugins.Misc.Sendinblue.Fields.List"] = "List",
-                ["Plugins.Misc.Sendinblue.Fields.List.Hint"] = "Select the Sendinblue list where your nopCommerce newsletter subscribers will be added.",
+                ["Plugins.Misc.Sendinblue.Fields.List.Hint"] = "Select the Sendinblue list where your yaancommerce newsletter subscribers will be added.",
                 ["Plugins.Misc.Sendinblue.Fields.MaKey"] = "Tracker ID",
                 ["Plugins.Misc.Sendinblue.Fields.MaKey.Hint"] = "Input your Tracker ID.",
                 ["Plugins.Misc.Sendinblue.Fields.Sender"] = "Send emails from",

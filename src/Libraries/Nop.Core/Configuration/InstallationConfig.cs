@@ -11,7 +11,7 @@
         public bool DisableSampleData { get; private set; } = false;
 
         /// <summary>
-        /// Gets or sets a list of plugins ignored during nopCommerce installation
+        /// Gets or sets a list of plugins ignored during yaancommerce installation
         /// </summary>
         public string DisabledPlugins { get; private set; } = string.Empty;
 

@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 namespace Nop.Web.Framework.Models
 {
     /// <summary>
-    /// Represents base nopCommerce model
+    /// Represents base yaancommerce model
     /// </summary>
     public partial record BaseNopModel
     {

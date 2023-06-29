@@ -4,7 +4,7 @@
   "SystemName": "Widgets.What3words",
   "Version": "1.03",
   "SupportedVersions": [ "4.60" ],
-  "Author": "nopCommerce team",
+  "Author": "yaancommerce team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.What3words.dll",
   "Description": "This plugin enables integration with what3words"

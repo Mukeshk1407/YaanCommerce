@@ -4,7 +4,7 @@
   "SystemName": "Payments.CyberSource",
   "Version": "1.10",
   "SupportedVersions": [ "4.60" ],
-  "Author": "nopCommerce team",
+  "Author": "yaancommerce team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Payments.CyberSource.dll",
   "Description": "This plugin allows paying with CyberSource"

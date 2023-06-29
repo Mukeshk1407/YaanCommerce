@@ -73,7 +73,7 @@ namespace Nop.Plugin.Misc.WebApi.Frontend
 
             config.ChildNodes.Insert(index, new SiteMapNode
             {
-                SystemName = "nopCommerce Web API plugin",
+                SystemName = "yaancommerce Web API plugin",
                 Title = "Web API",
                 ControllerName = "WebApiFrontend",
                 ActionName = "Configure",

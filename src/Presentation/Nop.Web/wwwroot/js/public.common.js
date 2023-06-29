@@ -1,5 +1,5 @@
 ﻿/*
-** nopCommerce custom js functions
+** yaancommerce custom js functions
 */
 
 

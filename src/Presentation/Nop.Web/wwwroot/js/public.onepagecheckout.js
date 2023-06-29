@@ -1,5 +1,5 @@
 /*
-** nopCommerce one page checkout
+** yaancommerce one page checkout
 */
 
 

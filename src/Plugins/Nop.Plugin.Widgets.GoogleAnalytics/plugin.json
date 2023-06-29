@@ -4,7 +4,7 @@
   "SystemName": "Widgets.GoogleAnalytics",
   "Version": "1.76",
   "SupportedVersions": [ "4.60" ],
-  "Author": "nopCommerce team, Nicolas Muniere",
+  "Author": "yaancommerce team, Nicolas Muniere",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.GoogleAnalytics.dll",
   "Description": "This plugin integrates with Google Analytics. It keeps track of statistics about the visitors and ecommerce conversion on your website"

@@ -13,18 +13,18 @@
         /// <summary>
         /// Gets the format string to create the description of update migration
         /// <remarks>
-        /// 0 - nopCommerce full version
+        /// 0 - yaancommerce full version
         /// 1 - update migration type
         /// </remarks>
         /// </summary>
-        public static string UpdateMigrationDescription { get; } = "nopCommerce version {0}. Update {1}";
+        public static string UpdateMigrationDescription { get; } = "yaancommerce version {0}. Update {1}";
 
         /// <summary>
         /// Gets the format string to create the description prefix of update migrations
         /// <remarks>
-        /// 0 - nopCommerce full version
+        /// 0 - yaancommerce full version
         /// </remarks>
         /// </summary>
-        public static string UpdateMigrationDescriptionPrefix { get; } = "nopCommerce version {0}. Update";
+        public static string UpdateMigrationDescriptionPrefix { get; } = "yaancommerce version {0}. Update";
     }
 }

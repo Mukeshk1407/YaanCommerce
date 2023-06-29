@@ -30,7 +30,7 @@ namespace Nop.Web.Areas.Admin.Helpers
     /// </returns>
     public async Task<string> GetTinyMceLanguageAsync()
     {
-        //nopCommerce supports TinyMCE's localization for 10 languages:
+        //yaancommerce supports TinyMCE's localization for 10 languages:
         //Chinese, Spanish, Arabic, Portuguese, Russian, German, French, Italian, Dutch and English out-of-the-box.
         //Additional languages can be downloaded from the website TinyMCE(https://www.tinymce.com/download/language-packages/)
         

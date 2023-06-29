@@ -9,7 +9,7 @@ using Nop.Web.Framework.Models;
 namespace Nop.Web.Framework.Components
 {
     /// <summary>
-    /// Base class for ViewComponent in nopCommerce
+    /// Base class for ViewComponent in yaancommerce
     /// </summary>
     public abstract partial class NopViewComponent : ViewComponent
     {

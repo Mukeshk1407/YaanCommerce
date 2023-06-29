@@ -266,7 +266,7 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.Customers.Customers.Fields.MultiFactorAuthenticationProvider.Hint"] = "Name of the multi-factor authentication provider to which the customer is associated.",
                 ["Admin.Customers.Customers.UnbindMFAProvider"] = "The customer has unbinded from the multifactor authentication provider successfully.",
 
-                ["Admin.Configuration.Plugins.Description.DownloadMorePlugins"] = "You can download more nopCommerce plugins in our <a href=\"{0}\" target=\"_blank\">marketplace</a>",
+                ["Admin.Configuration.Plugins.Description.DownloadMorePlugins"] = "You can download more yaancommerce plugins in our <a href=\"{0}\" target=\"_blank\">marketplace</a>",
                 ["Admin.Configuration.Payment.Methods.DownloadMorePlugins"] = "You can download more plugins in our <a href=\"{0}\" target=\"_blank\">marketplace</a>",
                 ["Admin.Configuration.Shipping.Providers.DownloadMorePlugins"] = "You can download more plugins in our <a href=\"{0}\" target=\"_blank\">marketplace</a>",
                 ["Admin.Configuration.Tax.Providers.DownloadMorePlugins"] = "You can download more plugins in our <a href=\"{0}\" target=\"_blank\">marketplace</a>",
@@ -299,8 +299,8 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.Configuration.AppSettings.Installation.InstallRegionalResources.Hint"] = "Enable this setting to download and setup the regional language pack during installation.",
 
                 //#5213
-                ["Admin.System.Log.List.PremiumSupport"] = "Have questions or need help? Get dedicated support from the nopCommerce team with a guaranteed response within 24 hours. Please find more about our premium support services <a href=\"{0}\" target=\"_blank\">here</a>.",
-                ["Admin.System.Log.PremiumSupport"] = "Have questions or need help? Get dedicated support from the nopCommerce team with a guaranteed response within 24 hours. Please find more about our premium support services <a href=\"{0}\" target=\"_blank\">here</a>.",
+                ["Admin.System.Log.List.PremiumSupport"] = "Have questions or need help? Get dedicated support from the yaancommerce team with a guaranteed response within 24 hours. Please find more about our premium support services <a href=\"{0}\" target=\"_blank\">here</a>.",
+                ["Admin.System.Log.PremiumSupport"] = "Have questions or need help? Get dedicated support from the yaancommerce team with a guaranteed response within 24 hours. Please find more about our premium support services <a href=\"{0}\" target=\"_blank\">here</a>.",
 
                 //#4699
                 ["Admin.Configuration.AppSettings.DistributedCache"] = "Distributed cache configuration",
@@ -337,7 +337,7 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.ConfigurationSteps.EditServicesInfo.Title"] = "Edit services info",
                 ["Admin.ConfigurationSteps.EditServicesInfo.Description"] = "Add info pages describing shipping, return policy and more",
                 ["Admin.ConfigurationSteps.PoweredBy.Title"] = "“Powered by” link",
-                ["Admin.ConfigurationSteps.PoweredBy.Description"] = "Remove the “Powered by nopCommerce” link from the footer",
+                ["Admin.ConfigurationSteps.PoweredBy.Description"] = "Remove the “Powered by yaancommerce” link from the footer",
                 ["Admin.ConfigurationSteps.Back"] = "Back",
                 ["Admin.ConfigurationSteps.NextStep"] = "Next",
                 ["Admin.ConfigurationSteps.NextPage"] = "Next page",
@@ -389,7 +389,7 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.ConfigurationSteps.Product.SettingsButton.Title"] = "“Settings” button",
                 ["Admin.ConfigurationSteps.Product.SettingsButton.Text"] = "This “Settings” button allows you to set up the basic mode to choose which fields you want to be shown exactly on the product edit page.",
                 ["Admin.ConfigurationSteps.Product.Details.Title"] = "Product details",
-                ["Admin.ConfigurationSteps.Product.Details.Text"] = "Enter the relevant product details in these fields. The screenshot below shows how they will be displayed on the product page with the default nopCommerce theme: <div><img src=\"../../js/admintour/images/product-page.jpg\"/></div>",
+                ["Admin.ConfigurationSteps.Product.Details.Text"] = "Enter the relevant product details in these fields. The screenshot below shows how they will be displayed on the product page with the default yaancommerce theme: <div><img src=\"../../js/admintour/images/product-page.jpg\"/></div>",
                 ["Admin.ConfigurationSteps.Product.Price.Title"] = "Product price",
                 ["Admin.ConfigurationSteps.Product.Price.Text"] = "Enter the product price in a predefined currency here. Read more on how to manage currencies <a href=\"{0}\" target=\"_blank\">here</a>.",
                 ["Admin.ConfigurationSteps.Product.Tax.Title"] = "Product tax category",
@@ -535,7 +535,7 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.Documentation.Reference.OnlineCustomers"] = "Learn more about <a target=\"_blank\" href=\"{0}\">online customers</a>",
                 ["Admin.Documentation.Reference.VendorManagement"] = "Learn more about <a target=\"_blank\" href=\"{0}\">vendor management</a>",
                 ["Admin.Documentation.Reference.ActivityLog"] = "Learn more about <a target=\"_blank\" href=\"{0}\">activity log</a>",
-                ["Admin.Documentation.Reference.Gdpr"] = "Learn more about <a target=\"_blank\" href=\"{0}\">GDPR in nopCommerce</a>",
+                ["Admin.Documentation.Reference.Gdpr"] = "Learn more about <a target=\"_blank\" href=\"{0}\">GDPR in yaancommerce</a>",
                 ["Admin.Documentation.Reference.Discounts"] = "Learn more about <a target=\"_blank\" href=\"{0}\">discounts</a>",
                 ["Admin.Documentation.Reference.Affiliates"] = "Learn more about <a target=\"_blank\" href=\"{0}\">affiliates</a>",
                 ["Admin.Documentation.Reference.EmailCampaigns"] = "Learn more about <a target=\"_blank\" href=\"{0}\">email campaigns</a>",
@@ -560,7 +560,7 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.Documentation.Reference.Measures"] = "Learn more about <a target=\"_blank\" href=\"{0}\">measures</a>",
                 ["Admin.Documentation.Reference.Acl"] = "Learn more about <a target=\"_blank\" href=\"{0}\">access control list</a>",
                 ["Admin.Documentation.Reference.ExternalAuthentication"] = "Learn more about <a target=\"_blank\" href=\"{0}\">external authentication methods</a>",
-                ["Admin.Documentation.Reference.Plugins"] = "Learn more about <a target=\"_blank\" href=\"{0}\">plugins in nopCommerce</a>",
+                ["Admin.Documentation.Reference.Plugins"] = "Learn more about <a target=\"_blank\" href=\"{0}\">plugins in yaancommerce</a>",
                 ["Admin.Documentation.Reference.Log"] = "Learn more about <a target=\"_blank\" href=\"{0}\">log</a>",
                 ["Admin.Documentation.Reference.Maintenance"] = "Learn more about <a target=\"_blank\" href=\"{0}\">maintenance</a>",
                 ["Admin.Documentation.Reference.MessageQueue"] = "Learn more about <a target=\"_blank\" href=\"{0}\">message queue</a>",
@@ -667,7 +667,7 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Admin.GiftCards.Fields.IsRecipientNotified.Hint"] = "Indicates whether the gift card recipient is notified by email. Click the \"Notify recipient\" button to send an email notification.",
 
                 //#4939
-                ["Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions"] = "CAPTCHA is a program that can tell whether it is a human or a computer is trying to access your web site. nopCommerce uses <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">reCAPTCHA</a> by Google. reCAPTCHA is a free service that protects your website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive challenges to keep automated software from engaging in abusive activities on your site. It does this while letting your valid users pass through with ease.",
+                ["Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions"] = "CAPTCHA is a program that can tell whether it is a human or a computer is trying to access your web site. yaancommerce uses <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">reCAPTCHA</a> by Google. reCAPTCHA is a free service that protects your website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive challenges to keep automated software from engaging in abusive activities on your site. It does this while letting your valid users pass through with ease.",
                 ["Admin.Configuration.AppSettings.EnvironmentVariablesWarning"] = "Warning! The current setting value is overridden in environment variables",
 
                 //#16 #2909

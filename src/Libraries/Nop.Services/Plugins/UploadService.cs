@@ -197,7 +197,7 @@ namespace Nop.Services.Plugins
                     if (!item.Type.HasValue)
                         continue;
 
-                    //ensure that the current version of nopCommerce is supported
+                    //ensure that the current version of yaancommerce is supported
                     if (!item.SupportedVersions?.Contains(NopVersion.CURRENT_VERSION) ?? true)
                         continue;
 
@@ -515,7 +515,7 @@ namespace Nop.Services.Plugins
             public string SystemName { get; set; }
 
             /// <summary>
-            /// Gets or sets supported versions of nopCommerce
+            /// Gets or sets supported versions of yaancommerce
             /// </summary>
             [JsonProperty(PropertyName = "SupportedVersion")]
             public string SupportedVersions { get; set; }

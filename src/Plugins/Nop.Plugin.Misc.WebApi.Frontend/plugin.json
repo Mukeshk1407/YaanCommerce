@@ -4,8 +4,8 @@
   "SystemName": "Misc.WebApi.Frontend",
   "Version": "1.00",
   "SupportedVersions": [ "4.60" ],
-  "Author": "nopCommerce team",
+  "Author": "yaancommerce team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Misc.WebApi.Frontend.dll",
-  "Description": "nopCommerce Web API for frontend"
+  "Description": "yaancommerce Web API for frontend"
 }

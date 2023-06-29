@@ -1,7 +1,7 @@
 ﻿namespace Nop.Services.Plugins.Marketplace
 {
     /// <summary>
-    /// Feed of plugins from nopCommerce.com marketplace
+    /// Feed of plugins from yaancommerce.com marketplace
     /// </summary>
     public partial class OfficialFeedPlugin
     {

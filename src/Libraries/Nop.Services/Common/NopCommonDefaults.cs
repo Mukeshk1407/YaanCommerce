@@ -101,36 +101,36 @@ namespace Nop.Services.Common
 
         #endregion
 
-        #region nopCommerce official site
+        #region yaancommerce official site
 
         /// <summary>
-        /// Gets a path to request the nopCommerce official site for license compliance check
+        /// Gets a path to request the yaancommerce official site for license compliance check
         /// </summary>
         /// <remarks>
         /// {0} : store URL
-        /// {1} : nopCommerce version
+        /// {1} : yaancommerce version
         /// {2} : admin email
         /// {3} : language code
         /// </remarks>
         public static string NopLicenseCheckPath => "license-check?url={0}&version={1}&email={2}&language={3}";
 
         /// <summary>
-        /// Gets a path to request the nopCommerce official site for news RSS
+        /// Gets a path to request the yaancommerce official site for news RSS
         /// </summary>
         /// <remarks>
-        /// {0} : nopCommerce version
+        /// {0} : yaancommerce version
         /// {1} : whether the store based is on the localhost
         /// {2} : whether advertisements are hidden
         /// {3} : store URL
         /// {4} : language code
         /// </remarks>
-        public static string NopNewsRssPath => "nopcommerce-news-rss?version={0}&localhost={1}&hideAdvertisements={2}&storeUrl={3}&language={4}";
+        public static string NopNewsRssPath => "yaancommerce-news-rss?version={0}&localhost={1}&hideAdvertisements={2}&storeUrl={3}&language={4}";
 
         /// <summary>
-        /// Gets a path to request the nopCommerce official site to notify about successful installation
+        /// Gets a path to request the yaancommerce official site to notify about successful installation
         /// </summary>
         /// <remarks>
-        /// {0} : nopCommerce version
+        /// {0} : yaancommerce version
         /// {1} : whether the store based is on the localhost
         /// {2} : admin email
         /// {3} : store URL
@@ -140,7 +140,7 @@ namespace Nop.Services.Common
         public static string NopInstallationCompletedPath => "installation-completed?version={0}&local={1}&email={2}&url={3}&language={4}&culture={5}";
 
         /// <summary>
-        /// Gets a path to request the nopCommerce official site for available categories of marketplace extensions
+        /// Gets a path to request the yaancommerce official site for available categories of marketplace extensions
         /// </summary>
         /// <remarks>
         /// {0} : language code
@@ -148,7 +148,7 @@ namespace Nop.Services.Common
         public static string NopExtensionsCategoriesPath => "extensions-feed?getCategories=1&language={0}";
 
         /// <summary>
-        /// Gets a path to request the nopCommerce official site for available versions of marketplace extensions
+        /// Gets a path to request the yaancommerce official site for available versions of marketplace extensions
         /// </summary>
         /// <remarks>
         /// {0} : language code
@@ -156,7 +156,7 @@ namespace Nop.Services.Common
         public static string NopExtensionsVersionsPath => "extensions-feed?getVersions=1&language={0}";
 
         /// <summary>
-        /// Gets a path to request the nopCommerce official site for marketplace extensions
+        /// Gets a path to request the yaancommerce official site for marketplace extensions
         /// </summary>
         /// <remarks>
         /// {0} : extension category identifier
